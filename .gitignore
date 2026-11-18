@@ -1,0 +1,27 @@
+# 빌드 산출물
+build/
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+compile_commands.json
+
+# CubeMX 임시 파일
+mx.scratch
+
+# clangd 인덱스 캐시
+.cache/
+
+# 개인 로컬 설정
+.vscode/
+.settings/
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
